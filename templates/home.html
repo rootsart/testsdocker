@@ -1,0 +1,15 @@
+<!-- app/templates/homepage.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>{{ message }} </h1>
+    <p>{{ hostname }}</p>
+     <p>{{ name|capitalize }}</p>
+</body>
+</html>

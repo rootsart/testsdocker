@@ -1,0 +1,12 @@
+{# templates/homepage.html #}
+
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+	<h1>{{ message }} </h1>
+    <p>{{ hostname }}</p>
+    <p>{{ name|capitalize }}</p>
+     <p>{{ uri }}</p>
+{% endblock %}
